@@ -1,0 +1,35 @@
+.section-1 {
+    ;
+    position: absolute;
+    top: 9%;
+    font-size: larger;
+    font-weight: bold;
+    width: 44%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 1%;
+
+}
+
+.term {
+    border: 2px solid  rgb(23, 114, 83);
+    border-top: 1px none;
+    border-left: none;
+    border-right: none;
+    border-bottom: (23, 114, 83);
+    font-size: medium;
+    font-weight: bold;
+    padding: 4%;
+    width: 85%;
+
+}
+
+.section-2 {
+    padding: 5%;
+    padding-left: 0;
+    
+}
+
+span {
+   padding-left: 9%;
+}

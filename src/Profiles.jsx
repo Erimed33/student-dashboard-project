@@ -16,10 +16,8 @@ const Profiles = () => {
           <p>{student.username}</p>
           <p>Date of Birth: {student.dob}</p>
           <img src={student.profilePhoto} alt="Profile" />
-          <p>CodeWars Current Total: {student.codewars.current.total}</p>
-          <p>CodeWars Goal Total: {student.codewars.goal.total}</p>
-          <p>Cohort: {student.cohort.cohortCode}</p>
-          <p>Cohort Start Date: {student.cohort.cohortStartDate}</p>
+          <ShowMore student={student}/> 
+          
         </div>
       ))}
       </div>
